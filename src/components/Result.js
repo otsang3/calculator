@@ -4,7 +4,7 @@ function Result(props) {
 
     return(
         <div className="div-result">
-            {props.result}
+            <p>{props.result}</p>
         </div>
     )
 }

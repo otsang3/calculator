@@ -27,6 +27,9 @@ code {
 .div-result {
   height: 2em;
   border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .main-container {
