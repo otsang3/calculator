@@ -59,7 +59,7 @@ function Calculator() {
 
     return(
         
-        <div>
+        <div className="main-container">
             <Result result={state.result}/>
             <KeyPad handleKey={handleKey}/>
         </div>

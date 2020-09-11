@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  all: unset;
+  width: 4em;
+  height: 2.5em;
+  text-align: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.actionKey {
+  background-color:#DCDCDC;
+  border: 1px solid grey;
+}
+
+.div-result {
+  height: 2em;
+  border: 1px solid red;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 16.5em;
+}
+
+.numKey {
+  background-color:#F5F5F5;
+  border: 1px solid grey;
 }
